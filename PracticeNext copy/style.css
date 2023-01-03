@@ -1,0 +1,19 @@
+p {
+    background-color: aqua;
+    font-size: 24px;
+}
+.contaner {
+    margin: 10px;
+    margin-top: 40px;
+    display: inline-block;
+    flex-direction: row;
+    background-color: rgb(184, 184, 184);
+}
+
+.main {
+    text-align: center;
+}
+
+.contaner > img {
+    max-width: 300px;
+}
