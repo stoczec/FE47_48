@@ -8,8 +8,9 @@
 }
 
 .main_table_1,
-.main_table_2 {
-    margin: 0 30px;
+.main_table_2,
+.main_table_3 {
+    margin: 0 10px;
 }
 /* Table 1 */
 
@@ -66,14 +67,9 @@ td {
 /* Table 3 */
 
 .table_3 {
-    border: 1px solid black;
+    border: 2px solid #b2a8b2;
     border-collapse: collapse;
-    max-width: 100%;
-}
-
-.table_3 th,
-td {
-    border: 1px solid black;
+    width: 700px;
 }
 
 .caption_table_3 {
@@ -83,10 +79,20 @@ td {
 }
 
 .table_3 tr:nth-child(1) {
-    background-color: yellow;
+    background-color: #ddca7b;
 }
 
-.table_3 tr{
+.table_3 tr {
     width: 50px;
     height: 50px;
+}
+
+.table_3 th,
+.table_3 td {
+    padding: 5px;
+    border: 2px dotted #b2a8b2;
+}
+
+.total {
+    text-align: right;
 }
