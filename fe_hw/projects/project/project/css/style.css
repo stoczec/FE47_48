@@ -27,7 +27,7 @@
     padding-right: 40px;
 
     text-decoration: none;
-    font-family: "Gilroy";
+    font-family: "Gilroy", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -259,7 +259,7 @@
     color: #1f2428;
 }
 
-.main__block-left .bottom_foto {
+.main__block-left_bottom_foto {
     /* width: 110px; */
     /* width: auto; */
     height: 112px;
@@ -272,28 +272,19 @@
 /*main__block-center*/
 
 .main__block-center {
-    max-width: 475px;
-    width: 100%;
-    height: 475px;
-
-    margin: 0 50px;
-
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
-.main__block-center_foto img{
     max-width: 499px;
     width: 100%;
     height: 475px;
 
-    border-radius:50%;
+    margin: 0 50px;
 }
 
-.main__block-center .center_foto img {
-    
+.main__block-center_foto img {
+    max-width: 499px;
+    width: 100%;
+    height: 475px;
 
+    border-radius: 50%;
 }
 
 /*main__block-right*/
@@ -371,10 +362,10 @@
 }
 
 .main__block-right_bottom_foto {
-    width: 110px;
+    /* width: 110px; */
     height: 112px;
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    /* align-items: center; */
 }
