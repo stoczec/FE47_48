@@ -56,6 +56,11 @@
     height: 35px;
 }
 
+.header__button{
+    background: linear-gradient(90deg, #f08204 0%, #00d981 96.96%);
+width: 500px;
+}
+
 .header__button .button {
     width: 170px;
     height: 48px;
@@ -277,6 +282,9 @@
     height: 475px;
 
     margin: 0 50px;
+
+    background-color: #555;
+    border-radius: 50%;
 }
 
 .main__block-center_foto img {
