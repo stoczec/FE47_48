@@ -7,7 +7,6 @@ function include(url) {
 include("/last_HW/main.js");
 
 let linkPrevios = "document.location='../taskSecond/taskSecond.html'";
-buttonHomeLink();
 let linkNext = "document.location='../taskFourth/taskFourth.html'";
 let titlePage = "Third task";
 let paragraphPageRu =
