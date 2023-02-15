@@ -42,7 +42,7 @@ let buttonHome = document.createElement("button");
 let buttonNext = document.createElement("button");
 
 navBut(buttonPrevious, linkPrevios, "previous page", "#654321");
-navBut(buttonHome, "document.location='.../index.html'", "home page", "#FFA500");
+navBut(buttonHome, "document.location='/last_HW/index.html'", "home page", "#FFA500");
 navBut(buttonNext, linkNext, "next page", "#FFFF00");
 
 let title = document.createElement("h1");
