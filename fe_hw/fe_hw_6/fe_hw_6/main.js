@@ -10,7 +10,7 @@ buttonUp.style.zIndex = "10";
 buttonUp.style.left = "95%";
 buttonUp.style.top = "90%";
 buttonUp.style.borderRadius = "50%";
-buttonUp.style.fontSize = "30px";
+buttonUp.style.fontSize = "150%";
 buttonUp.style.fontWeight = "bold";
 buttonUp.style.fontFamily = "Gilroy";
 buttonUp.style.backgroundColor = "#87CEEB";
@@ -32,7 +32,7 @@ function navBut(but, butLink, butName, butBackColor) {
     but.style.border = "none";
     but.style.width = "15%";
     but.style.height = "6vh";
-    but.style.fontSize = "4vh";
+    but.style.fontSize = "2em";
     but.style.fontWeight = "bold";
     but.style.fontFamily = "Gilroy";
 }
